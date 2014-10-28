@@ -4,8 +4,8 @@ var dips = [doc askForUserInput:"Enter a value in PX" initialValue:100];
 
 var msg, title;
 if (dips != null){
-    title = dips + "dp amounts to";
-    msg = "MDPI: " + dips + "px\nHDPI: " + dips / 1.5 +  "px\nXHDPI:" + dips / 2 + "px\nXXHDPI: " + dips / 3 + "px\nXXXHDPI: " + dips / 4 + "px";
+    title = dips + "px amounts to";
+    msg = "MDPI: " + dips + "dp\nHDPI: " + dips / 1.5 +  "dp\nXHDPI:" + dips / 2 + "dp\nXXHDPI: " + dips / 3 + "dp\nXXXHDPI: " + dips / 4 + "dp";
     var app = [NSApplication sharedApplication];
     [app displayDialog:msg withTitle: title];
 }
